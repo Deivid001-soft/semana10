@@ -1,0 +1,15 @@
+1. ¿Qué evento activa el flujo?
+El Webhook de n8n recibe una petición HTTP POST instantánea cada vez que un ciudadano envía con éxito un formulario con un nuevo reporte en la plataforma web.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+"¡Atención Equipo! Se ha registrado un nuevo reporte comunitario en el sistema. 
+ID del Caso: #1024
+Estado: Pendiente de revisión.
+Por favor, ingresen al panel de administración para asignar un veedor."
+
+3. ¿Qué información no debería enviarse por seguridad?
+Bajo ninguna circunstancia deben enviarse datos sensibles o que vulneren la privacidad y seguridad de las personas:
+- Nombres completos o apellidos de la persona que reporta.
+- Números de documento de identidad (cédula).
+- Direcciones exactas de residencias privadas o números telefónicos.
+- Credenciales, contraseñas, tokens de acceso o claves de API expuestas en el cuerpo del mensaje.
