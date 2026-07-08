@@ -1,0 +1,12 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: El registro de reportes por parte del ciudadano (Historia 1).
+- Tarea 2: La consulta del listado de reportes por el equipo de veeduría (Historia 2).
+
+2. ¿Por qué son las más importantes?
+Porque constituyen el "Core" o núcleo de la solución tecnológica (el Producto Mínimo Viable). Sin la capacidad de capturar los datos del reporte y sin una interfaz para que el equipo los lea, el sistema no tiene valor base. Las notificaciones o estadísticas secundarias no sirven si no existen datos previos que procesar.
+
+3. Definición de Terminado (Definition of Done - DoD):
+Para mí, una tarea está "terminada" cuando cumple estrictamente con los siguientes criterios:
+- Funcionalidad aprobada: El código compila, se ejecuta sin errores y cumple con el objetivo de la historia de usuario.
+- Pruebas superadas: Se realizaron pruebas manuales o automatizadas asegurando que no rompe componentes existentes.
+- Control de versiones y despliegue: El código limpio quedó registrado en Git, con un commit descriptivo, y subido a la rama principal de GitHub.
