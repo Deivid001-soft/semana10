@@ -1,0 +1,4 @@
+1. [ALTA] Como ciudadano, quiero registrar un reporte con la descripción de una incidencia comunitaria para dejar evidencia pública del caso.
+2. [ALTA] Como miembro del equipo de veeduría, quiero consultar el listado de reportes activos para organizar las inspecciones de seguimiento.
+3. [MEDIA] Como coordinador del proyecto, quiero recibir una alerta automática en Telegram cada vez que se cree un nuevo reporte para revisarlo rápidamente.
+4. [BAJA] Como ciudadano, quiero visualizar un contador de reportes resueltos en la plataforma para verificar el impacto real de la gestión.
